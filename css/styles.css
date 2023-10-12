@@ -185,8 +185,8 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.our-portfolio-item-h3 {
-color: var(--NAVY-BLUE, #2E2F42);
+.our-portfolio-item-header {
+color: #2e2f42;
 font-family: Roboto, sans-serif;
 font-size: 20px;
 font-weight: 500;
