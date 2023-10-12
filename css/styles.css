@@ -171,16 +171,16 @@ letter-spacing: 0.02em;
 /* Our Portfolio */
 
 .our-portfolio-section {
-background: #FFF;
+background: #FFFFFF;
 }
 
 .our-portfolio-item {
-color: var(--NAVY-BLUE, #2E2F42);
+color: #2e2f42;
 text-align: center;
 font-family: Roboto, sans-serif;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.11;
+line-height: 1.2;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
