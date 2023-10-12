@@ -56,6 +56,7 @@ color: var(--OCEAN, #404BBF);
 .adress {
 color: var(--SLATE, #434455);
 font-family: Roboto, sans-serif;
+font-style: normal;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
@@ -73,33 +74,33 @@ color: var(--OCEAN, #404BBF);
 background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.h1 {
+.hero-header-section {
 color: var(--WHITE, #FFF);
 text-align: center;
 font-family: Roboto, sans-serif;
 font-size: 56px;
 font-weight: 700;
-line-height: 1.071;
+line-height: 1.07;
 letter-spacing: 0.02em;
 }
 
 .button {
 background: var(--IRIS, #4D5AE5);
 cursor: pointer;
-
-}
-
-.button:hover {
-background: var(--OCEAN, #404BBF);
-}
-
-.button-text {
-color: var(--WHITE, #FFF);
-font-family: inherit;
-font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+color: #ffffff;
+}
+
+.button:hover,
+.button:focus {
+background-color: #404BBF;
+}
+
+.button-text {
+font-family: inherit;
+font-size: 16px;
 }
 
 /* Section 2 */
@@ -108,7 +109,7 @@ letter-spacing: 0.04em;
 font-size: 0%;
 }
 
-.section-two-item-h3 {
+.section-two-item-header {
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto, sans-serif;
 font-size: 20px;
@@ -143,7 +144,12 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.our-team-h3 {
+
+.section-three-list {
+background-color: #FFFFFF 
+}
+
+.our-team-header {
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-size: 20px;
